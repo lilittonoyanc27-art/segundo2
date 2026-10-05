@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  
+  .font-display {
+    font-family: 'Cinzel', Georgia, serif;
+  }
+
+  .font-armenian {
+    font-family: 'Noto Sans Armenian', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+/* Classic Millionaire Hexagonal / Angled Shape */
+.millionaire-trapezoid {
+  clip-path: polygon(14px 0%, calc(100% - 14px) 0%, 100% 50%, calc(100% - 14px) 100%, 14px 100%, 0% 50%);
+}
+
+.millionaire-question-shape {
+  clip-path: polygon(20px 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 20px 100%, 0% 50%);
+}
+
+/* Radial spotlights */
+.studio-glow {
+  background: radial-gradient(circle at 50% 20%, rgba(30, 64, 175, 0.45) 0%, rgba(15, 23, 42, 0.9) 60%, rgba(4, 8, 20, 1) 100%);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.6);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(59, 130, 246, 0.4);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(59, 130, 246, 0.7);
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Millionaire Spanish-Armenian Soccer Quiz",
+  "description": "Interactive Who Wants to Be a Millionaire Spanish past tenses learning game with Armenian translations, no timer, and continuous gameplay.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
